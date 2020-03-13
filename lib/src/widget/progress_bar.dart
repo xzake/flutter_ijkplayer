@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ijkplayer/src/helper/ui_helper.dart';
+import 'package:flutter_ijkplayer_revision/src/helper/ui_helper.dart';
 
 typedef ChangeProgressHandler(double progress);
 
@@ -64,12 +64,7 @@ class _ProgressBarState extends State<ProgressBar> {
         widget.tapProgressHandler != null) {
       progress = GestureDetector(
         child: progress,
-        behavior: HitTestBehavior.translucent,
-        onPanUpdate: _onPanUpdate,
-        onHorizontalDragUpdate: _onHorizontalDragUpdate,
-        onHorizontalDragEnd: _onHorizontalDragEnd,
-        onTapDown: _onTapDown,
-        onTapUp: _onTapUp,
+        behavior: HitTestBehavior.translucent
       );
     }
 
