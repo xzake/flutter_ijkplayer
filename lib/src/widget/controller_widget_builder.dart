@@ -69,7 +69,7 @@ class DefaultIJKControllerWidget extends StatefulWidget {
     @required this.controller,
     this.doubleTapPlay = false,
     this.verticalGesture = true,
-    this.horizontalGesture = true,
+    this.horizontalGesture = false,
     this.volumeType = VolumeType.system,
     this.playWillPauseOther = true,
     this.currentFullScreenState = false,
@@ -633,11 +633,13 @@ class PortraitController extends StatelessWidget {
         current: info.currentPosition,
         max: info.duration,
         changeProgressHandler: (progress) async {
-          await controller.seekToProgress(progress);
-          tooltipDelegate?.hideTooltip();
+           // todo 禁用拖动
+          // await controller.seekToProgress(progress);
+          // tooltipDelegate?.hideTooltip();
         },
         tapProgressHandler: (progress) {
-          showProgressTooltip(info, progress);
+          // todo 禁用拖动
+          // showProgressTooltip(info, progress);
         },
       ),
     );
