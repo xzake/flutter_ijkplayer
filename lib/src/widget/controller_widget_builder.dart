@@ -3,13 +3,13 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_ijkplayer_revision/flutter_ijkplayer.dart';
-import 'package:flutter_ijkplayer_revision/src/helper/full_screen_helper.dart';
-import 'package:flutter_ijkplayer_revision/src/helper/logutil.dart';
-import 'package:flutter_ijkplayer_revision/src/helper/time_helper.dart';
-import 'package:flutter_ijkplayer_revision/src/helper/ui_helper.dart';
-import 'package:flutter_ijkplayer_revision/src/route/fullscreen_route.dart';
-import 'package:flutter_ijkplayer_revision/src/widget/progress_bar.dart';
+import 'package:flutter_ijkplayer/flutter_ijkplayer.dart';
+import 'package:flutter_ijkplayer/src/helper/full_screen_helper.dart';
+import 'package:flutter_ijkplayer/src/helper/logutil.dart';
+import 'package:flutter_ijkplayer/src/helper/time_helper.dart';
+import 'package:flutter_ijkplayer/src/helper/ui_helper.dart';
+import 'package:flutter_ijkplayer/src/route/fullscreen_route.dart';
+import 'package:flutter_ijkplayer/src/widget/progress_bar.dart';
 
 part 'full_screen.part.dart';
 

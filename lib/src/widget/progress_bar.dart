@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ijkplayer_revision/src/helper/ui_helper.dart';
+import 'package:flutter_ijkplayer/src/helper/ui_helper.dart';
 
 typedef ChangeProgressHandler(double progress);
 
