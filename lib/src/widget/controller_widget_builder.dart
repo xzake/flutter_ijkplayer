@@ -323,12 +323,7 @@ class DefaultIJKControllerWidgetState extends State<DefaultIJKControllerWidget>
   onTap() => isShow = !isShow;
 
   Function onDoubleTap() {
-    return widget.doubleTapPlay
-        ? () {
-            LogUtils.debug("ondouble tap");
-            controller.playOrPause();
-          }
-        : null;
+    return null;
   }
 
   Function wrapHorizontalGesture(Function function) =>
@@ -597,7 +592,7 @@ class PortraitController extends StatelessWidget {
 
     Widget widget = Row(
       children: <Widget>[
-        playButton,
+        // playButton,
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: currentTime,
